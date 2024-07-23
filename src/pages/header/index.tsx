@@ -1,10 +1,10 @@
-import { Header } from '../pages/header';
+import { H1 } from '../../components/h1';
 import styles from './styles.module.scss';
 
-export function App() {
+export function Header() {
   return (
     <main className={styles.Container}>
-      <Header />
+      <H1 text="Hello World" />
     </main>
   );
 }
