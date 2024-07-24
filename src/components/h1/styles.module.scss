@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+h1 {
+  // &.xsmall {
+  //   font-size: $font-size-xsmall;
+  // }
+  // &.small {
+  //   font-size: $font-size-small;
+  // }
+  // &.medium {
+  //   font-size: $font-size-medium;
+  // }
+  &.large {
+    font-size: $font-size-large;
+  }
+  &.xxxlarge {
+    font-size: $font-size-xxxlarge;
+  }
+  &.huge {
+    font-size: $font-size-huge;
+  }
+  &.xhuge {
+    font-size: $font-size-xhuge;
+  }
+}

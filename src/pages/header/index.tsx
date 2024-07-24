@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 export function Header() {
   return (
     <main className={styles.Container}>
-      <H1 text="Hello World" />
+      <H1 text="Vai se fuder" size="xhuge" />
     </main>
   );
 }
