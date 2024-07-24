@@ -22,4 +22,18 @@ h1 {
   &.xhuge {
     font-size: $font-size-xhuge;
   }
+
+
+  &.primaryColor {
+    color: $color-primary;
+  }
+  &.secondaryColor {
+    color: $color-secondary;
+  }
+  &.mediumGrey {
+    color: $color-mediumGrey;
+  }
+  &.white {
+    color: $color-white;
+  }
 }

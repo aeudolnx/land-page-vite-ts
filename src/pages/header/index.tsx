@@ -1,10 +1,12 @@
-import { H1 } from '../../components/h1';
+import { Text } from '../../components/text';
+import { Title } from '../../components/title/index';
 import styles from './styles.module.scss';
 
 export function Header() {
   return (
     <main className={styles.Container}>
-      <H1 text="Hello Wrld 999!" size="xhuge" />
+      <Title text="Hello Wrld 999!" size="large" />
+      <Text text="Testing styles" color="secondaryColor" size="small" />
     </main>
   );
 }
