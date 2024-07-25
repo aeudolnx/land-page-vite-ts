@@ -7,5 +7,5 @@ export function Text({
 }: textProps) {
   const sizeClass = size ? styles[size] : '';
   const colorClass = color ? styles[color] : '';
-  return <p className={`${styles.h1} ${sizeClass} ${colorClass}`}>{text}</p>;
+  return <p className={`${styles.Text} ${sizeClass} ${colorClass}`}>{text}</p>;
 }

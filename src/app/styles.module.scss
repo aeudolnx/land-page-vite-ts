@@ -13,5 +13,9 @@ html{
 }
 
 .Container{
-  color: $color-secondary;
+  //color: $color-secondary;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }

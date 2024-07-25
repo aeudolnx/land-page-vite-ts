@@ -1,6 +1,7 @@
-@import '../../styles/variables';
+@import '../../styles/_variables.scss';
+.Link{
+  cursor: pointer;
 
-.Text {
   &.xsmall {
     font-size: $font-size-xsmall;
   }
@@ -10,9 +11,9 @@
   &.medium {
     font-size: $font-size-medium;
   }
-  &.large {
-    font-size: $font-size-large;
-  }
+  // &.large {
+  //   font-size: $font-size-large;
+  // }
   // &.xxxlarge {
   //   font-size: $font-size-xxxlarge;
   // }
@@ -22,6 +23,7 @@
   // &.xhuge {
   //   font-size: $font-size-xhuge;
   // }
+
 
   &.primaryColor {
     color: $color-primary;

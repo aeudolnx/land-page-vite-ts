@@ -7,5 +7,7 @@ export function Title({
 }: titleProps) {
   const sizeClass = size ? styles[size] : '';
   const colorClass = color ? styles[color] : '';
-  return <h1 className={`${styles.h1} ${sizeClass} ${colorClass}`}>{text}</h1>;
+  return (
+    <h1 className={`${styles.Title} ${sizeClass} ${colorClass}`}>{text}</h1>
+  );
 }

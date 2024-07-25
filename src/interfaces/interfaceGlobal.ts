@@ -11,3 +11,19 @@ export interface textProps {
   size?: 'xsmall' | 'small' | 'medium' | 'large';
   color?: 'primaryColor' | 'secondaryColor' | 'mediumGrey' | 'white';
 }
+
+export interface menuProps {
+  children: ReactNode;
+}
+
+export interface linkProps {
+  text: string;
+  size?: 'xsmall' | 'small' | 'medium' | 'large';
+  color?: 'primaryColor' | 'secondaryColor' | 'mediumGrey' | 'white';
+  spacing?: 'spacingSmall' | 'spacingMedium';
+}
+
+export interface mainProps {
+  children: ReactNode;
+  //className: string;
+}

@@ -1,3 +1,6 @@
+import { Link } from '../../components/link';
+import { Main } from '../../components/main';
+import { Menu } from '../../components/menu';
 import { Text } from '../../components/text';
 import { Title } from '../../components/title/index';
 import styles from './styles.module.scss';
@@ -5,8 +8,17 @@ import styles from './styles.module.scss';
 export function Header() {
   return (
     <main className={styles.Container}>
-      <Title text="Hello Wrld 999!" size="large" />
-      <Text text="Testing styles" color="secondaryColor" size="small" />
+      <div className={styles.ContainerMain}>
+        <Title text="LOGO" size="large" />
+        <Menu>
+          <div>
+            <Link text="Intro" color="secondaryColor" size="small" />
+            <Link text="Grid-one" color="secondaryColor" size="small" />
+            <Link text="Gallery" color="secondaryColor" size="small" />
+            <Link text="Contact" color="secondaryColor" size="small" />
+          </div>
+        </Menu>
+      </div>
     </main>
   );
 }

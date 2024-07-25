@@ -1,1 +1,26 @@
 @import '../../styles/variables';
+
+.Container {
+  border: solid 1px blue;
+  width: 100%;
+  height: $font-size-xhuge;
+
+
+  .ContainerMain {
+    max-width: 120rem;
+    height: 100%;
+    padding: $font-size-large;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid red;
+
+    div{
+      display: flex;
+      gap: 5rem;
+    }
+  }
+}
+
