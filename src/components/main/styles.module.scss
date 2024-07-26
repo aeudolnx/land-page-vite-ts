@@ -1,9 +1,22 @@
-.Container {
+@import '../../styles/variables';
+.main_Container {
   //width: 120rem;
   max-width: 120rem;
-  //padding: 10rem;
   height: 85.5rem;
-  padding: 10rem;
+  padding: $font-size-large;
   border: solid 1px red;
   margin: 0 auto;
+
+  &.flex {
+    display: flex;
+  }
+
+  &.center {
+    align-items: center;
+  }
+
+  @media screen and (max-width: 955px) {
+    flex-direction: column;
+  }
+
 }

@@ -5,7 +5,6 @@ export function Link({
   text,
   color = 'primaryColor',
   size = 'small',
-  spacing = 'spacingSmall',
 }: linkProps) {
   const sizeClass = size ? styles[size] : '';
   const colorClass = color ? styles[color] : '';

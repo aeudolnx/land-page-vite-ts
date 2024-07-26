@@ -1,7 +1,7 @@
 @import '../../styles/_variables.scss';
 .Link{
   cursor: pointer;
-
+  position: relative;
   &.xsmall {
     font-size: $font-size-xsmall;
   }
@@ -36,5 +36,21 @@
   }
   &.white {
     color: $color-white;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    width: 0%;
+    height: 0.2rem;
+    background-color: $color-secondary;
+    transition: all 200ms ease-in-out;
+  }
+
+  &:hover::after{
+    left: 25%;
+    width: 50%;
   }
 }

@@ -1,7 +1,5 @@
 import { Link } from '../../components/link';
-import { Main } from '../../components/main';
 import { Menu } from '../../components/menu';
-import { Text } from '../../components/text';
 import { Title } from '../../components/title/index';
 import styles from './styles.module.scss';
 

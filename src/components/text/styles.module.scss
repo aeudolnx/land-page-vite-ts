@@ -35,4 +35,12 @@
   &.white {
     color: $color-white;
   }
+
+
+    word-break: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Quebra palavras para evitar overflow */
+    white-space: normal; /* Quebra de linha normal */
+    hyphens: auto; /* Adiciona hífens automaticamente */
+    line-height: 1.5;
+
 }

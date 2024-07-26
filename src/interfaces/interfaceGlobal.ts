@@ -20,10 +20,10 @@ export interface linkProps {
   text: string;
   size?: 'xsmall' | 'small' | 'medium' | 'large';
   color?: 'primaryColor' | 'secondaryColor' | 'mediumGrey' | 'white';
-  spacing?: 'spacingSmall' | 'spacingMedium';
 }
 
 export interface mainProps {
   children: ReactNode;
-  //className: string;
+  display?: 'flex' | '';
+  alignItems?: 'center' | '';
 }
